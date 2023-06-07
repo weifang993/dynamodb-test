@@ -1,0 +1,13 @@
+{
+    "name": "dynamo-test",
+    "version": "1.0.0",
+    "description": "Dynamo NodeJS",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "@aws-sdk/lib-dynamodb": "^3.344.0"
+    },
+    "scripts": {
+        "test": "mocha tests/unit/"
+    }
+}
